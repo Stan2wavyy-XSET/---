@@ -1,4 +1,4 @@
-
+/*start*/
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,6 +9,7 @@
     outline: none;
     scroll-behavior: smooth;
 }
+/*Primary colors*/
 :root{
     --bg-color: #1f242d;
     --second-bg-color: #323946;
@@ -20,7 +21,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
-
+/* body*/
 body{
     background: var(--bg-color);
     color: var(--text-color);
@@ -43,6 +44,7 @@ section{
     color: var(--text-color);
     display: none;
 }
+/*style for home section*/
  .home{
     display: flex;
     justify-content: center;
@@ -96,7 +98,7 @@ font-weight: 700;
     align-items: center;
     z-index: 100;
 } 
-
+/*logo*/
 .logo{
     font-size: 2.5rem;
     color: var(--text-color);
@@ -171,6 +173,7 @@ font-weight: 700;
     font-weight: 600;
     transition: .5s ease;
   }
+  /*about*/
   .about{
     display: flex;
     justify-content: center;
@@ -202,6 +205,7 @@ line-height: 1.2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+/*services*/
 .services h2 {
     margin-bottom: 5rem;
 
@@ -244,6 +248,7 @@ gap: 2rem;
     border-radius: 50%;
     border: 5px solid 
 }
+/*contact design*/
  .contact h2 {
     margin-bottom: 3rem;
  }
@@ -272,7 +277,7 @@ gap: 2rem;
 
 .contact form .input-box input {
     width: 49%;
-    
+
 }
     
     
